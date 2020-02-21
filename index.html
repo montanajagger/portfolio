@@ -97,7 +97,7 @@
 							is in beast beginning signs open god you're gathering whose gathered cattle let.
 							Creature whales fruit unto meat the life beginning all in under give two.
 						</p>
-						<a class="primary_btn" href="#"><span>Download CV</span></a>
+						<a class="primary_btn" href="#" onclick="download_csv()"><span>Download CV</span></a>
 					</div>
 				</div>
 			</div>
@@ -507,6 +507,44 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/theme.js"></script>
+
+	<script>
+		var data = [
+				['phone number', '(+86)13154157796'],
+				['contact', 'Liaoning, China'],
+				['email', 'montanajagger1995@gmail.com'],
+				['specialize', 'Full stack developer'],
+				['year', '7 years experience working'],
+				['skill', 'ReactJS'],
+				['skill', 'VueJS'],
+				['skill', 'EmberJS'],
+				['skill', 'NodeJS'],
+				['skill', 'MongoDB'],
+				['skill', 'Ruby on Rails'],
+				['skill', 'Flutter'],
+				['skill', 'Firebase'],
+				['skill', 'Unity3d'],
+				['service', 'E-COMMERCE'],
+				['service', 'BUSINESS WEBSITES'],
+				['service', 'WEB DESIGN'],
+				['service', 'MOBILE APPS']
+		];
+
+		function download_csv() {
+			var csv = 'Name, Zheng Zhikai\n';
+
+			data.forEach(function(row) {
+				csv += row.join(',');
+				csv += "\n";
+			});
+
+			var hiddenElement = document.createElement('a');
+			hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+			hiddenElement.target = '_blank';
+			hiddenElement.download = 'zhengzhikai.csv';
+			hiddenElement.click();
+		}
+	</script>
 </body>
 
 </html>
