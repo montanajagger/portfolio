@@ -2564,6 +2564,42 @@ h6 {
       margin-bottom: 30px; } }
   .single-brand-item .d-table-cell {
     vertical-align: middle; }
+  .single-brand-item #cell-reactjs {
+    background-color: rgb(19, 187, 236);
+  }
+
+  .single-brand-item #cell-vuejs {
+    background-image: linear-gradient(rgb(52, 73, 94), rgb(140, 215, 182));
+  }
+
+  .single-brand-item #cell-emberjs {
+    background-color: rgb(225, 79, 57);
+  }
+
+  .single-brand-item #cell-nodejs {
+    background-image: linear-gradient(to right, rgb(51, 51, 51), rgb(99, 146, 1), rgb(99, 146, 1), rgb(99, 146, 1), rgb(99, 146, 1), rgb(99, 146, 1), rgb(51, 51, 51));
+  }
+
+  .single-brand-item #cell-mongodb {
+    background-image: linear-gradient(to right, rgb(125, 196, 90), rgb(64, 47, 31), rgb(64, 47, 31), rgb(64, 47, 31), rgb(64, 47, 31), rgb(64, 47, 31), rgb(125, 196, 90));
+  }
+
+  .single-brand-item #cell-rubyonrails {
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 39, 15),  rgb(255, 39, 15));
+  }
+
+  .single-brand-item #cell-flutter {
+    background-color: rgb(1, 106, 192);
+  }
+
+  .single-brand-item #cell-firebase {
+    background-image: linear-gradient(rgb(245, 131, 14), rgb(255, 202, 42));
+  }
+
+  .single-brand-item #cell-unity {
+    background-image: radial-gradient(rgb(255, 255, 255),  rgb(255, 255, 255), rgb(34, 44, 55), rgb(34, 44, 55));
+  }
+
   .single-brand-item img {
     max-width: 80px;
     margin: 0 auto;
