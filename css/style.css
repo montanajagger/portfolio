@@ -84,7 +84,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 200px 0; }
+  padding: 0; }
   @media (max-width: 1199px) {
     .section_gap {
       padding: 80px 0; } }
@@ -360,7 +360,7 @@ button:focus {
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
-      padding-top: 197px; }
+      padding-top: 100px; }
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
@@ -2477,7 +2477,8 @@ h6 {
 /* Start About Us Area css
 ============================================================================================ */
 .about_area {
-  position: relative; }
+  position: relative;
+  padding-bottom: 200px;}
   .about_area .main_title {
     margin-bottom: 0px; }
     .about_area .main_title p {
@@ -3242,7 +3243,7 @@ h6 {
   /* End Home Banner Area css
   ============================================================================================ */
   .section_gap {
-    padding-top: 70px;
+    padding-top: 0;
     padding-bottom: 70px; }
 
   .main_title h2 {
