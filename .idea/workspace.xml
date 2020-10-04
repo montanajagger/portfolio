@@ -4,12 +4,21 @@
     <list default="true" id="e436a402-ef0c-488a-9fe3-fb21bfa83cf1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +63,11 @@
       <workItem from="1582343436386" duration="608000" />
       <workItem from="1582344435031" duration="1491000" />
       <workItem from="1582347349420" duration="372000" />
-      <workItem from="1582364346476" duration="315000" />
+      <workItem from="1582364346476" duration="441000" />
+      <workItem from="1582641348876" duration="25000" />
+      <workItem from="1584990931784" duration="867000" />
+      <workItem from="1585080573846" duration="26000" />
+      <workItem from="1601818973072" duration="2553000" />
     </task>
     <servers />
   </component>
@@ -62,6 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1585080597735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/1920.2.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585080597735" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1582305444786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
